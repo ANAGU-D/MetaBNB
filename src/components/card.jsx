@@ -1,15 +1,15 @@
 import React,{Component} from 'react'
 //eslint-disable-next-line
 import cardstyle from './styles/card.css' 
-import frame1 from '../assets/homeimages/Frame1.png'
-import frame2 from '../assets/homeimages/Frame2.png'
-import frame3 from '../assets/homeimages/Frame3.png'
-import frame4 from '../assets/homeimages/Frame4.png'
-import frame5 from '../assets/homeimages/Frame5.png'
-import frame6 from '../assets/homeimages/Frame6.png'
-import frame7 from '../assets/homeimages/Frame7.png'
-import frame8 from '../assets/homeimages/Frame8.png'
-import star from '../assets/homeimages/Star 2.svg'
+import frame1 from '../assets/homeimgs/Frame1.png'
+import frame2 from '../assets/homeimgs/Frame2.png'
+import frame3 from '../assets/homeimgs/Frame3.png'
+import frame4 from '../assets/homeimgs/Frame4.png'
+import frame5 from '../assets/homeimgs/Frame5.png'
+import frame6 from '../assets/homeimgs/Frame6.png'
+import frame7 from '../assets/homeimgs/Frame7.png'
+import frame8 from '../assets/homeimgs/Frame8.png'
+import star from '../assets/homeimgs/Star 2.svg'
 
 class Card extends Component{
 

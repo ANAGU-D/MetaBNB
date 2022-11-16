@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 // eslint-disable-next-line
 import navstyle from './styles/navbar.css'
 import logo from '../assets/metalogo.svg'
-import Modal from '../components/Modal'
+import Modal from '../components/modal'
 import {Link} from 'react-router-dom'
 
 

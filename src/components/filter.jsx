@@ -1,7 +1,7 @@
 import React from 'react'
-import settings from '../assets/placetostayimages/settings.svg'
+import settings from '../assets/placetostay/settings.svg'
 // eslint-disable-next-line
-import filterstyle from './styles/filter.style.css'
+import filterstyle from './styles/filter.css'
 
 const Filter = () => {
   return (
