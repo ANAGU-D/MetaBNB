@@ -20,3 +20,25 @@ span{
 .btn{
     color: #A02279;
 }
+
+
+@media only screen and (max-width:600px) {
+    html,body{max-width:100%; overflow-x: hidden;}
+nav{display:none;}
+#Nav-btn{visibility:hidden}
+#ftext{font-size: large; justify-content: center; text-align: center; padding-right: 5%; padding-left: 5%;}
+#Top-container{display: flex; flex-direction: column; width: 100%; padding-right: 5%; padding-left: 5%;}
+#Top-left{width: 100%;}
+#pageone{display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;}
+#Top-right{display: none;}
+#stext{text-align: center;}
+#Middle-container{padding-left: 5%;}
+#inspiration{font-size: medium;}
+#demacation{height: 4%;}
+#Buttom-Container{display:flex; flex-direction: column; width: 100%;}
+#buttomR{width:100%; display: flex; flex-direction:column;}
+}
+
+@media only screen and (min-width: 768px) {
+
+}
