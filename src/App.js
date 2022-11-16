@@ -1,17 +1,18 @@
-import Header from './components/header';
-import Body from './components/body';
-import Footer from './components/footer';
+import './App.css';
+import Home from './pages/home';
+import PlacetoStay from './pages/placetostay';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 function App() {
   return (
     <Router>
-      <Header/>
+      
       <Routes>
-        <Route path='/' element={ <Body/>}/>
+        <Route path='/' element={ <Home/>}/>
+        <Route path='/placetostay' element={ <PlacetoStay/>}/>
       </Routes>
-      <Footer/>
+      
     </Router>
   );
 }
