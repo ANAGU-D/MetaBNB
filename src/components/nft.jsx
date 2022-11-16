@@ -1,5 +1,5 @@
 import React from 'react'
-import nftstyle from './styles/nft.css'
+ import nftstyle from './styles/nft.css'
 import nft1 from '../assets/image 7.png'
 import nft2 from '../assets/image 8.png'
 import nft3 from '../assets/image 9.png'
